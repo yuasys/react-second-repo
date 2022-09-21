@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <code>src/App.js</code>を編集しリロードのために保存しよう
+          Web部品づくりを勉強しながらこのサイトを育てます
         </p>
         <a
           className="App-link"
@@ -18,7 +18,17 @@ function App() {
           日本語公式サイトで学ぶ
         </a>
       </header>
-      <p>ここに書くとどこに表示されるか確認します。</p>
+      <h1>当面の取り組みについて</h1>
+      <div className="phrase">
+        <p>
+        🚀このたび、ありがたいことにようやくこのサイトを立ち上げることが出来ました。このサイトの裏側には、次のような便利機能がついています。<br/>
+        <ul>
+          <li>ローカルのVscodeで自在に編集。</li>
+          <li>ターミナルで<code>npm run start</code>するとブラウザでリアルタイムで編集結果をモニタリングできる。</li>
+          <li>ターミナルで<code>npm run deploy</code>すると自動でGithubのPagesにpushされ、Pagesで公開したサイトも更新される！🚀</li>
+        </ul>
+        </p>
+      </div>
     </div>
   );
 }
