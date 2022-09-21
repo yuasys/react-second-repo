@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Web部品づくりを勉強しながらこのサイトを育てます
+          Web部品づくりのサイトです
         </p>
         <a
           className="App-link"
@@ -18,7 +18,7 @@ function App() {
           日本語公式サイトで学ぶ
         </a>
       </header>
-      <h1>当面の取り組みについて</h1>
+      <h1>このサイトについて</h1>
       <div className="phrase">
         <p>
         🚀このたび、ありがたいことにようやくこのサイトを立ち上げることが出来ました。このサイトの裏側には、次のような便利機能がついています。<br/>
