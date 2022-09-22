@@ -1,17 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom/client';//ReactDomを使う
+import './index.css';//cssを当てる
+import App from './App';//Appコンポーネントを使う
+import reportWebVitals from './reportWebVitals';//GoogleChromのweb-vitalsという計測ライブラリの追加とセットアップを事前に行う
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));// /public/index.htmlの要素id=rootからReactDomのルートを作成して定数rootに代入
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+);//ReactDomに定数rootを介して引数の内容<App />をrender(描画)する。その際、厳密(Strict)なモード下で行う。
+reportWebVitals();//計測を実行
