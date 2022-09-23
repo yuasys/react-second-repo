@@ -27,6 +27,7 @@ function App() {
           <li>ターミナルで<code>npm run start</code>するとブラウザでリアルタイムで編集結果をモニタリングできる。</li>
           <li>ターミナルで<code>npm run deploy</code>すると自動でGithubのPagesにpushされ、Pagesで公開したサイトも更新される！🚀</li>
         </ul>
+        <b>ReactによるWeb部品作りを楽しみながら、このサイトを育てていきます</b>ので、どうぞよろしくお願いいたします。
         </p>
       </div>
     </div>
