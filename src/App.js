@@ -17,8 +17,16 @@ function App() {
         >
           日本語公式サイトで学ぶ
         </a>
-      </header>
-      <h1>このサイトについて</h1>
+        <a
+          className="App-link"
+          href="https://docs.google.com/document/d/e/2PACX-1vTJj-1Jq90zA_5Siqf1wu_biUOWFmsjMAAfHUoMJQklU0Yg4iGnsbyQX5QoyzgJEHjw-eojwD8JsUfr/pub"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ブログ
+        </a>
+     </header>
+      <h2>このサイトについて</h2>
       <div className="phrase">
         <p>
         🚀このたび、ありがたいことにようやくこのサイトを立ち上げることが出来ました。このサイトの裏側には、次のような便利機能がついています。<br/>
