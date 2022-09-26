@@ -31,9 +31,9 @@ function App() {
         <p>
         🚀このたび、ありがたいことにようやくこのサイトを立ち上げることが出来ました。このサイトの裏側には、次のような便利機能がついています。<br/>
         <ul>
-          <li>ローカルのVscodeで自在に編集。</li>
-          <li>ターミナルで<code>npm run start</code>するとブラウザでリアルタイムで編集結果をモニタリングできる。</li>
-          <li>ターミナルで<code>npm run deploy</code>すると自動でGithubのPagesにpushされ、Pagesで公開したサイトも更新される！🚀</li>
+          <li>筆者のローカルリポジトリ`<b>~/source/react-app/app-dir</b>`をVscodeで自在に編集し、</li>
+          <li>ターミナルで`<b>npm run start</b>`するとブラウザでリアルタイムで編集結果をモニタリングできるようになり、</li>
+          <li>ターミナルで`<b>npm run deploy</b>`すると自動でGithubのPagesにpushされ、Pagesで公開したサイトも更新される！🚀</li>
         </ul>
         <b>ReactによるWeb部品作りを楽しみながら、このサイトを育てていきます</b>ので、どうぞよろしくお願いいたします。
         </p>
